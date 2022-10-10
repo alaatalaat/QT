@@ -1,0 +1,31 @@
+#contact-header{
+  background:#12123C;margin-top:30px !important;padding: 50px 0px 5px 0px;
+  .row{
+    div:first-child{
+      .bi-house-door-fill{font-size:25px;}
+      .bi-chevron-double-left{font-size:20px;color:gray}
+      a{text-decoration:none;}
+      b,a{font-size:18px;color:gray;}
+    }
+    div:nth-child(2){
+      h5{color:#fff}
+    }
+  }
+}
+
+
+#contact-body{
+      background: #eee;
+      input{height:40px;padding:0px 10px 0px 0px;}
+      input,textarea{
+        width:100%;outline:none;margin:15px 0px 5px 0px;background:transparent;
+        border:1px solid gray;box-shadow:none;border-radius:10px;
+      }
+      textarea{padding:10px 10px 0px 0px;}
+      input::placeholder,textarea::placeholder,input:focus{color:gray !important;}
+      span{font-weight:600;}
+      input[type="submit"]{
+        background:#12123C;color:#fff;
+      }
+
+}

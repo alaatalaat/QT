@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "name": "Alaa",
+      "email": "alaatalat40@gmail.com",
+      "message": "text",
+      "id": 1
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed12@gmail.com",
+      "message": "Plz send ur text here",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+nav{
+  *{direction: rtl;}
+  background:#12123C;position:fixed;width:100%;top:0px;z-index:1000;
+  ul{
+    li{
+      a{
+        color:#fff;
+      }
+    }
+  }
+  #login{
+    a{text-decoration:none;}
+    background:#2F2F54;margin-left:5px;
+  }
+  #createAcc{
+    a{text-decoration:none;}
+    background: #F36E32;margin-right:5px;
+  }
+}
+
+@media screen and(min-width:400px){
+  #login{margin-left:5px;}
+  #createAcc{
+    a{text-decoration:none;}
+    background: #F36E32;margin-right:5px;
+  }
+}
